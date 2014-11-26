@@ -11,8 +11,6 @@
 */
    
    
-   
-   
 error_reporting(E_ALL);
 date_default_timezone_set('PRC');
 function rpc_client_call($host, $port, $rpc_server, $request) {
