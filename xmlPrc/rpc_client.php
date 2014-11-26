@@ -9,6 +9,7 @@
 * $request 封装的XML请求信息
 * 返回：连接成功成功返回由服务器端返回的XML信息，失败返回false
 */
+
 error_reporting(E_ALL);
 date_default_timezone_set('PRC');
 function rpc_client_call($host, $port, $rpc_server, $request) {
